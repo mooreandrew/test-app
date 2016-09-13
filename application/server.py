@@ -6,6 +6,7 @@ from flask import Flask
 def index():
     return(app.config['TESTVALUE'])
 
+
 @app.route('/health')
 def health():
     return('ok')
