@@ -14,5 +14,5 @@ def health():
 
 
 @app.route('/hello')
-def health():
+def hello():
     return('Hello World')
