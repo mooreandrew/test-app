@@ -11,3 +11,8 @@ def index():
 @app.route('/health')
 def health():
     return('ok')
+
+
+@app.route('/hello')
+def health():
+    return('Hello World')
